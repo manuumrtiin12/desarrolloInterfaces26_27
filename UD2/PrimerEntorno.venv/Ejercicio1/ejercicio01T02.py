@@ -10,7 +10,7 @@ class Ventana(QMainWindow):
 
         # Configuramos la ventana
         self.setWindowTitle("Game Shop")
-        self.resize(600, 350)
+        self.setFixedSize(600, 350)
         self.setMinimumSize(400, 250)
 
         # Creamos un botón
